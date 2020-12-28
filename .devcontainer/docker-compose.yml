@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  node-dev:
+    build: "./"
+    working_dir: "/project_root/"
+    command: ["sleep", "infinity"]
+    volumes:
+      - "./../:/project_root/"
+    ports:
+      - "9000:9000"

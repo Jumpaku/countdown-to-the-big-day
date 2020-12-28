@@ -1,0 +1,12 @@
+{
+  "name": "node-dev",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "node-dev",
+  "workspaceFolder": "/project_root/",
+  "extensions": [
+    "streetsidesoftware.code-spell-checker",
+    "donjayamanne.githistory",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}
